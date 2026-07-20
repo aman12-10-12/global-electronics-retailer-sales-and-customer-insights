@@ -47,6 +47,25 @@ The project uses five related datasets:
 - Stores
 - Exchange rates
 
+## Data preparation
+
+The raw datasets and their cleaned versions are included in the repository under `[01] ETL/`.
+
+- `Dataset/` contains the original source files.
+- `Cleaned Datasets/` contains the processed files used in the next stages of the project.
+- The five Jupyter notebooks document the cleaning process for customers, products, sales, stores, and exchange rates.
+
 ## Project status
 
-The repository is being added in stages: raw data, cleaning workflow, cleaned outputs, SQL analysis, and the Excel dashboard.
+Completed:
+
+- [x] Project documentation
+- [x] Raw datasets
+- [x] Data-cleaning notebooks
+- [x] Cleaned datasets
+
+Next:
+
+- [ ] SQL Server database setup and data loading
+- [ ] SQL revenue and customer analysis
+- [ ] Excel dashboard and supporting documentation
