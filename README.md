@@ -50,3 +50,25 @@ The analysis combines five related tables containing **62,885 sales records**.
 | `exchange_rates` | Daily currency conversion rates |
 
 The `sales` table is the central fact table and links to customers, products, stores, and exchange rates.
+
+## Sales performance
+
+![Sales dashboard](assets/sales-dashboard.png)
+
+### Key metrics
+
+| Metric | Result |
+|---|---:|
+| Total revenue | $55.76M |
+| Total profit | $32.66M |
+| Total orders | 26,326 |
+| Total units sold | 197,757 |
+
+### Key findings
+
+- **Computers** are the leading category, generating approximately **$19.3M** in revenue.
+- The **WWI Desktop PC2.33 X2330 Black** is the highest-revenue product, delivering approximately **$505K** in revenue.
+- **Home appliances** have the highest average order value at approximately **$1.84K**.
+- The **United States** is the largest market, contributing approximately **$29.87M** in revenue.
+- Revenue peaked in **2019** at approximately **$18.26M**.
+- The 2021 figures should be interpreted carefully because the available data is incomplete.
