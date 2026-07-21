@@ -34,3 +34,19 @@ This project analyses sales transactions, customer behaviour, products, stores, 
 - [`[01] ETL`](./%5B01%5D%20ETL/) — source data, cleaned data, notebooks, and loading scripts
 - [`[02] SQL`](./%5B02%5D%20SQL/) — SQL analysis query
 - [`[03] Excel Dashboard`](./%5B03%5D%20Excel%20Dashboard/) — dashboard workbook and metric documentation
+
+## Data structure
+
+The analysis combines five related tables containing **62,885 sales records**.
+
+![Entity-relationship diagram](assets/er-diagram.png)
+
+| Table | Description |
+|---|---|
+| `customers` | Customer demographics and location details |
+| `sales` | Order-level transaction records |
+| `products` | Product, brand, category, cost, and price information |
+| `stores` | Store location, size, and opening-date details |
+| `exchange_rates` | Daily currency conversion rates |
+
+The `sales` table is the central fact table and links to customers, products, stores, and exchange rates.
