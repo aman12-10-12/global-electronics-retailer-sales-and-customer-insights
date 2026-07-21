@@ -64,6 +64,10 @@ The ETL folder also includes the database setup and loading workflow:
 
 Before running the loader, configure the required `SQL_SERVER`, `SQL_USERNAME`, and `SQL_PASSWORD` environment variables. `SQL_DATABASE` is optional and defaults to `Global_Electronics_Retailer`.
 
+## SQL analysis
+
+`[02] SQL/[01] revenue_customer_analysis.sql` joins the customer, sales, store, product, and exchange-rate tables into an analysis-ready dataset. It calculates age groups, order dates, revenue, total cost, profit, customer status, and customer order counts for use in the dashboard.
+
 ## Project status
 
 Completed:
@@ -73,8 +77,8 @@ Completed:
 - [x] Data cleaning notebooks
 - [x] Cleaned datasets
 - [x] SQL Server database setup and data loading script
+- [x] SQL revenue and customer analysis
 
 Next:
 
-- [ ] SQL revenue and customer analysis
 - [ ] Excel dashboard and supporting documentation
