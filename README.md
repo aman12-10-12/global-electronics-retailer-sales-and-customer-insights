@@ -68,6 +68,17 @@ Before running the loader, configure the required `SQL_SERVER`, `SQL_USERNAME`, 
 
 `[02] SQL/[01] revenue_customer_analysis.sql` joins the customer, sales, store, product, and exchange-rate tables into an analysis-ready dataset. It calculates age groups, order dates, revenue, total cost, profit, customer status, and customer order counts for use in the dashboard.
 
+## Excel dashboard documentation
+
+The dashboard build documentation is available in `[03] Excel Dashboard/`:
+
+- `[01] Load Data from SQL Server.md` explains how to import the analysis dataset into Excel.
+- `[04] Additional Columns.md` provides the helper formula for order-frequency groups.
+- `[02] Revenue Metrics.md` documents the revenue and profit formulas.
+- `[03] Customer Metrics.md` documents the customer and retention formulas.
+
+The completed interactive workbook will be added next.
+
 ## Project status
 
 Completed:
@@ -78,7 +89,8 @@ Completed:
 - [x] Cleaned datasets
 - [x] SQL Server database setup and data loading script
 - [x] SQL revenue and customer analysis
+- [x] Excel dashboard setup and metric documentation
 
 Next:
 
-- [ ] Excel dashboard and supporting documentation
+- [ ] Interactive Excel dashboard workbook
