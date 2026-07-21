@@ -55,17 +55,26 @@ The raw datasets and their cleaned versions are included in the repository under
 - `Cleaned Datasets/` contains the processed files used in the next stages of the project.
 - The five Jupyter notebooks document the cleaning process for customers, products, sales, stores, and exchange rates.
 
+## SQL Server setup and loading
+
+The ETL folder also includes the database setup and loading workflow:
+
+- `Database Creation.sql` creates the `Global_Electronics_Retailer` database if it does not already exist.
+- `ETL.py` loads the cleaned customer, sales, store, product, and exchange rate datasets into SQL Server tables.
+
+Before running the loader, configure the required `SQL_SERVER`, `SQL_USERNAME`, and `SQL_PASSWORD` environment variables. `SQL_DATABASE` is optional and defaults to `Global_Electronics_Retailer`.
+
 ## Project status
 
 Completed:
 
 - [x] Project documentation
 - [x] Raw datasets
-- [x] Data-cleaning notebooks
+- [x] Data cleaning notebooks
 - [x] Cleaned datasets
+- [x] SQL Server database setup and data loading script
 
 Next:
 
-- [ ] SQL Server database setup and data loading
 - [ ] SQL revenue and customer analysis
 - [ ] Excel dashboard and supporting documentation
