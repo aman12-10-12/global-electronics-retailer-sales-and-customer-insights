@@ -72,3 +72,26 @@ The `sales` table is the central fact table and links to customers, products, st
 - The **United States** is the largest market, contributing approximately **$29.87M** in revenue.
 - Revenue peaked in **2019** at approximately **$18.26M**.
 - The 2021 figures should be interpreted carefully because the available data is incomplete.
+
+## Customer insights
+
+![Customer dashboard](assets/customer-dashboard.png)
+
+### Key metrics
+
+| Metric | Result |
+|---|---:|
+| Total customers | 11,887 |
+| New customers in the past 365 days | 711 |
+| Average customer age | 56 years |
+| Average order frequency | 2 orders |
+| Customer acquisition rate | 6.33% |
+| Repeat customer rate | 53.40% |
+
+### Key findings
+
+- Seniors represent the largest customer age group, followed by adults and young adults.
+- The gender split is balanced: **51% male** and **49% female**.
+- The United States has the largest customer base with **5,706** customers.
+- More than **10,000 customers** place between 1 and 9 orders, indicating a major opportunity to encourage repeat purchases.
+- Retention peaked at **89.45% in 2019** and declined in later years; the incomplete 2021 data should be interpreted with caution.
