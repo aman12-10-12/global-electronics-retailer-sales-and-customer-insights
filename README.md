@@ -1,39 +1,55 @@
 # Global Electronics Retailer: Sales & Customer Insights
 
-![Project cover](assets/project-cover.png)
+![Global Electronics Retailer project cover](assets/project-cover.png)
 
-An end to end data analytics project that transforms global electronics retail data into business insights using Python, SQL Server, and Excel.
+## Table of contents
 
-## Project overview
+- [Project background](#project-background)
+- [Project objective](#project-objective)
+- [Tools and workflow](#tools-and-workflow)
+- [Repository structure](#repository-structure)
+- [Data structure](#data-structure)
+- [Executive summary](#executive-summary)
+- [Sales insights](#sales-insights)
+- [Customer insights](#customer-insights)
+- [Recommendations](#recommendations)
+- [Project resources](#project-resources)
+- [Notes and limitations](#notes-and-limitations)
 
-This project analyses sales transactions, customer behaviour, products, stores, and exchange rates for a fictional global electronics retailer. The goal is to identify revenue drivers, customer trends, and market opportunities through a reproducible data workflow and an interactive Excel dashboard.
+## Project background
 
-## Business questions
+Global Electronics Retailer is a fictional global business that sells a wide range of electronic products across multiple countries. The available data captures sales transactions, customer demographics, product information, store details, and exchange rates. Together, these datasets provide a complete view of how the business performs across products, locations, and customer segments.
 
-- Which products, categories, and markets generate the most revenue and profit?
-- How do sales and profit change over time?
-- What does the customer base look like by age, gender, and geography?
-- How strong are repeat purchase and retention trends?
-- Which areas offer the greatest opportunity for growth?
+The purpose of this project is to convert raw retail data into practical business insights. The workflow begins with cleaning and preparing the source datasets in Python, loading the cleaned data into SQL Server, analysing the data through SQL, and presenting the final findings in an interactive Excel dashboard.
 
-## Tools used
+The analysis focuses on revenue distribution, market performance, customer demographics, repeat purchases, retention trends, and sales patterns across high-ticket and low-ticket products. These insights can support better product strategy, targeted marketing, customer retention initiatives, and geographic expansion decisions.
 
-- **Python and Jupyter Notebook** — data cleaning
-- **SQL Server and SQL** — data storage and analysis
-- **Microsoft Excel** — interactive dashboard and reporting
+## Project objective
 
-## Project workflow
+This project answers the following business questions:
 
-1. Clean raw customer, product, sales, store, and exchange-rate data.
-2. Load cleaned datasets into SQL Server.
-3. Create an analysis-ready dataset with SQL.
-4. Build sales and customer dashboards in Excel.
+- Which product categories and individual products generate the highest revenue and profit?
+- Which countries contribute the most to total sales?
+- How do revenue and profit change over time?
+- What are the most important customer demographics and purchasing behaviours?
+- How frequently do customers return and make repeat purchases?
+- Which product categories and markets offer opportunities for improvement?
 
-## Repository guide
+## Tools and workflow
 
-- [`[01] ETL`](./%5B01%5D%20ETL/) — source data, cleaned data, notebooks, and loading scripts
-- [`[02] SQL`](./%5B02%5D%20SQL/) — SQL analysis query
-- [`[03] Excel Dashboard`](./%5B03%5D%20Excel%20Dashboard/) — dashboard workbook and metric documentation
+The project uses the following tools:
+
+- **Python and Jupyter Notebook** for cleaning and preparing the raw datasets.
+- **Microsoft SQL Server** for storing the cleaned data.
+- **SQL** for joining tables, creating calculated fields, and preparing an analysis-ready dataset.
+- **Microsoft Excel** for building an interactive dashboard containing sales and customer metrics.
+
+The project workflow follows four stages:
+
+1. Clean the customer, product, sales, store, and exchange-rate datasets.
+2. Load the cleaned datasets into SQL Server.
+3. Use SQL to join the tables and calculate revenue, profit, customer status, age groups, and order frequency.
+4. Build Excel dashboards that communicate the most important sales and customer insights.
 
 ## Data structure
 
