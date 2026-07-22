@@ -95,3 +95,28 @@ The `sales` table is the central fact table and links to customers, products, st
 - The United States has the largest customer base with **5,706** customers.
 - More than **10,000 customers** place between 1 and 9 orders, indicating a major opportunity to encourage repeat purchases.
 - Retention peaked at **89.45% in 2019** and declined in later years; the incomplete 2021 data should be interpreted with caution.
+
+## Recommendations
+
+1. **Prioritise high-margin product lines.** Continue investing in desktop PCs and other high-value product categories that make the largest contribution to revenue and profit.
+
+2. **Increase repeat purchases.** Use loyalty programmes, personalised offers, and post-purchase campaigns to convert low-frequency customers into repeat buyers.
+
+3. **Grow underperforming categories.** Test bundles, seasonal promotions, and targeted marketing for lower-performing categories such as games and toys.
+
+4. **Expand selectively by market.** Maintain focus on the United States while testing market-specific campaigns in lower-revenue countries.
+
+5. **Improve retention monitoring.** Track retention by customer segment and purchase history to identify churn risk earlier.
+
+## Skills demonstrated
+
+- Data cleaning and transformation with Python
+- Relational data modelling and SQL Server loading
+- SQL joins, calculated fields, and customer segmentation
+- Revenue, profitability, retention, and customer analysis
+- Excel dashboard design and business storytelling
+
+## Notes
+
+- This project uses fictional retail data for portfolio and analytical demonstration purposes.
+- The Excel workbook can be downloaded from the [`[03] Excel Dashboard`](./%5B03%5D%20Excel%20Dashboard/) folder.
