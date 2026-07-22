@@ -51,21 +51,48 @@ The project workflow follows four stages:
 3. Use SQL to join the tables and calculate revenue, profit, customer status, age groups, and order frequency.
 4. Build Excel dashboards that communicate the most important sales and customer insights.
 
+## Repository structure
+
+```text
+├── [01] ETL/
+│   ├── Dataset/                         # Original source datasets
+│   ├── Cleaned Datasets/                # Cleaned datasets used for analysis
+│   ├── Customer Data Cleaning.ipynb
+│   ├── Products Data Cleaning.ipynb
+│   ├── Sales Data Cleaning.ipynb
+│   ├── Stores Data Cleaning.ipynb
+│   ├── Exchange Rates Data Cleaning.ipynb
+│   ├── Database Creation.sql            # SQL Server database creation script
+│   └── ETL.py                           # Data-loading script
+│
+├── [02] SQL/
+│   └── revenue_customer_analysis.sql    # Revenue and customer analysis query
+│
+├── [03] Excel Dashboard/
+│   ├── Load Data from SQL Server.md
+│   ├── Revenue Metrics.md
+│   ├── Customer Metrics.md
+│   ├── Additional Columns.md
+│   └── Global Electronics Retailer Sales and Customer Dashboard.xlsx
+│
+├── assets/
+│   ├── project-cover.png
+│   ├── er-diagram.png
+│   ├── sales-dashboard.png
+│   └── customer-dashboard.png
+│
+└── README.md
+```
+
 ## Data structure
 
-The analysis combines five related tables containing **62,885 sales records**.
+The Global Electronics Retailer database consists of five connected tables: `customers`, `sales`, `products`, `stores`, and `exchange_rates`. The dataset contains a total of 62,885 records and supports analysis of transactions, product performance, customer behaviour, store activity, and currency conversion.
+
+The `sales` table is the central transaction table. It connects customer purchases with products, stores, and exchange-rate information.
 
 ![Entity-relationship diagram](assets/er-diagram.png)
 
-| Table | Description |
-|---|---|
-| `customers` | Customer demographics and location details |
-| `sales` | Order-level transaction records |
-| `products` | Product, brand, category, cost, and price information |
-| `stores` | Store location, size, and opening-date details |
-| `exchange_rates` | Daily currency conversion rates |
-
-The `sales` table is the central fact table and links to customers, products, stores, and exchange rates.
+The `customers` table contains customer demographic and location fields, including gender, city, state, country, continent, and birthday. The `products` table contains product names, brands, colours, categories, unit costs, and selling prices. The `stores` table provides store location, size, and opening-date details. The `exchange_rates` table supports currency conversion based on the transaction date and currency code. The `sales` table records orders, line items, order dates, delivery dates, quantities, customers, stores, products, and currencies.
 
 ## Sales performance
 
