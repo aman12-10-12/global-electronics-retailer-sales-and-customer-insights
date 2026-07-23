@@ -178,25 +178,32 @@ This pattern suggests that the business has a large number of low-frequency buye
 
 ## Recommendations
 
-1. **Prioritise high-margin product lines.** Continue investing in desktop PCs and other high-value product categories that make the largest contribution to revenue and profit.
+### Focus on high-ticket products
 
-2. **Increase repeat purchases.** Use loyalty programmes, personalised offers, and post-purchase campaigns to convert low-frequency customers into repeat buyers.
+The company should continue promoting and expanding profitable high-ticket product lines, particularly desktop PCs, home appliances, and TV and video products. These categories make the strongest contribution to revenue and profit and should receive priority in inventory planning and marketing activity.
 
-3. **Grow underperforming categories.** Test bundles, seasonal promotions, and targeted marketing for lower-performing categories such as games and toys.
+### Improve low-performing categories
 
-4. **Expand selectively by market.** Maintain focus on the United States while testing market-specific campaigns in lower-revenue countries.
+Games and toys generate the lowest revenue and profit. The company should test targeted promotions, bundled offers, seasonal discounts, and product cross-selling strategies to increase demand in this category.
 
-5. **Improve retention monitoring.** Track retention by customer segment and purchase history to identify churn risk earlier.
+### Strengthen customer loyalty
 
-## Skills demonstrated
+With a repeat customer rate of 53.40%, the retailer has a solid foundation for customer loyalty. Loyalty programmes, exclusive discounts, personalised product recommendations, and post-purchase communication can help increase repeat purchases and customer lifetime value.
 
-- Data cleaning and transformation with Python
-- Relational data modelling and SQL Server loading
-- SQL joins, calculated fields, and customer segmentation
-- Revenue, profitability, retention, and customer analysis
-- Excel dashboard design and business storytelling
+### Expand strategically by geography
 
-## Notes
+The United States should remain the company’s core market because it contributes the highest revenue and customer count. At the same time, lower-performing countries, especially France, should be evaluated for local marketing initiatives, product-market fit, and partnership opportunities.
 
-- This project uses fictional retail data for portfolio and analytical demonstration purposes.
-- The Excel workbook can be downloaded from the [`[03] Excel Dashboard`](./%5B03%5D%20Excel%20Dashboard/) folder.
+### Improve customer retention
+
+The changes in retention rates after 2019 indicate a need for stronger customer engagement. Personalised email campaigns, win-back offers, customer segmentation, and retention monitoring can help identify customers at risk of churn and encourage them to return.
+
+## Project resources
+
+- [Data cleaning notebooks and datasets](./%5B01%5D%20ETL/)
+- [SQL revenue and customer analysis](./%5B02%5D%20SQL/)
+- [Excel dashboard workbook and metric documentation](./%5B03%5D%20Excel%20Dashboard/)
+
+## Notes and limitations
+
+This project uses fictional retail data for portfolio and learning purposes. The 2021 dataset is incomplete, so 2021 revenue, profit, and retention figures should be interpreted with caution and should not be used as a full-year performance comparison.
